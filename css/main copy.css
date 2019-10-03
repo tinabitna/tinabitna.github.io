@@ -9,7 +9,7 @@ body {
   overflow-x: hidden;
 }
 p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 26px;
 }
 a:hover,
@@ -720,7 +720,59 @@ a:not([href]):not([tabindex]):hover {
   opacity: 0.7;
   filter: alpha(opacity=70);
 }
-
+/* ==========================================================================
+    Pricing Table
+    ========================================================================== */
+.pricing-table {
+  padding: 20px 20px 40px 20px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border: transparent;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+}
+.pricing-table:hover {
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
+}
+.pricing-table .icon {
+  font-size: 26px;
+  color: #4676fa;
+  border: 1px solid #4676fa;
+  border-radius: 4px;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  line-height: 64px;
+  margin: 30px auto;
+}
+.pricing-table .pricing-details h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+.pricing-table .pricing-details span {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: 400;
+  color: #4676fa;
+  margin-bottom: 20px;
+}
+.pricing-table .pricing-details ul {
+  margin-bottom: 35px;
+}
+.pricing-table .pricing-details ul li {
+  padding: 10px;
+  font-size: 15px;
+  border-bottom: 1px solid #eee;
+}
+.table-left {
+  margin-top: 20px;
+}
 /* ==========================================================================
    Counter Section Style
    ========================================================================== */
@@ -886,7 +938,7 @@ a:not([href]):not([tabindex]):hover {
   width: 100%;
   margin-bottom: 20px;
   padding: 18px;
-  color: #333;
+  color: #fff;
   font-size: 14px;
   border-radius: 4px;
   -webkit-transition: all 0.3s;
@@ -961,7 +1013,7 @@ a:not([href]):not([tabindex]):hover {
    Footer Style
    ========================================================================== */
 footer {
-  background: #fff;
+  background: #333;
   padding: 60px 0px 30px;
   text-align: center;
 }
